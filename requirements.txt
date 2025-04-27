@@ -1,0 +1,8 @@
+langchain
+neo4j
+faiss-cpu
+chromadb
+fastapi
+uvicorn
+python-dotenv
+requests

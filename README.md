@@ -1,0 +1,60 @@
+# ngTelco-Assistant
+
+> Proof of Concept di assistente virtuale full-stack, sviluppato in Python, **LangChain-powered**, con logica avanzata di Retrieval-Augmented Generation (**RAG**).
+
+## Introduzione
+
+`ngTelco-Assistant` esplora la creazione di un **agente RAG** capace di recuperare informazioni da **tre fonti distinte**:
+- **Database a grafo** (es. Neo4j) per dati strutturati e relazionali
+- **Vector Store** (es. FAISS, Chroma, ecc.) per il recupero semantico di documenti
+- **Mock API esterna** per simulare l'integrazione con servizi di terze parti
+
+Questa architettura dimostra la flessibilità e la potenza di LangChain nell'orchestrare più fonti di conoscenza per arricchire il ragionamento dell'agente.
+
+## Architettura del progetto
+
+- `agent.py` → Definizione della logica dell'agente multi-retrieval
+- `bot.py` → Avvio e gestione del bot
+- `graph.py` → Interazione con il database a grafo
+- `tools/` → Set di tool custom (es. retriever, API connector)
+- `models/` → Modelli dati strutturati
+- `data/` → Dataset di esempio
+- `images/` → Risorse grafiche
+
+## Requisiti
+
+- Python 3.10+
+- LangChain
+- Neo4j (per il grafo)
+- FAISS o altro vector store
+- FastAPI (per il mock di API esterne)
+
+Installa tutto con:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Esecuzione
+
+Per avviare il bot:
+
+```bash
+python bot.py
+```
+
+Per avviare il mock API server:
+
+```bash
+python mock_api.py
+```
+
+## Stato del progetto
+
+🛠️ Proof of Concept (Work in Progress)  
+🌐 Dimostra integrazione avanzata di Knowledge Sources  
+🤝 Aperto a contributi!
+
+## Licenza
+
+Distribuito sotto licenza **MIT**.
