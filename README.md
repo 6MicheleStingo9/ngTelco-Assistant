@@ -43,17 +43,10 @@ Per avviare il bot:
 python bot.py
 ```
 
-Per avviare il mock API server:
-
-```bash
-python mock_api.py
-```
-
 ## Stato del progetto
 
-🛠️ Proof of Concept (Work in Progress)  
+🛠️ Proof of Concept  
 🌐 Dimostra integrazione avanzata di Knowledge Sources  
-🤝 Aperto a contributi!
 
 ## Licenza
 
