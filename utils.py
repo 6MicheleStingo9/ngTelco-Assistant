@@ -16,7 +16,7 @@ def write_message(role, content, save=True):
     if role == "assistant":
         with st.chat_message(
             role,
-            avatar="/home/stingom/Scrivania/Git/llm-projects/telco_assistant/images/ngt.png",
+            avatar="/home/stingom/Scrivania/Git/llm-projects/telco_assistant/images/va.png",
         ):
             st.markdown(content)
     else:

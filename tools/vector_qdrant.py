@@ -20,7 +20,7 @@ vector_store = QdrantVectorStore(
 
 uuids = [str(uuid4()) for _ in range(len(offers_docs))]
 vector_store.add_documents(documents=offers_docs, ids=uuids)
-retriever = vector_store.as_retriever(search_type="mmr")
+retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 2})
 
 
 def get_vector_info(query):

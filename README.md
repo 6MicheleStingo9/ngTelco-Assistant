@@ -5,6 +5,7 @@
 ## Introduzione
 
 `ngTelco-Assistant` esplora la creazione di un **agente RAG** capace di recuperare informazioni da **tre fonti distinte**:
+
 - **Database a grafo** (es. Neo4j) per dati strutturati e relazionali
 - **Vector Store** (es. FAISS, Chroma, ecc.) per il recupero semantico di documenti
 - **Mock API esterna** per simulare l'integrazione con servizi di terze parti
@@ -26,8 +27,7 @@ Questa architettura dimostra la flessibilità e la potenza di LangChain nell'orc
 - Python 3.10+
 - LangChain
 - Neo4j (per il grafo)
-- FAISS o altro vector store
-- FastAPI (per il mock di API esterne)
+- Qdrant o altro vector store
 
 Installa tutto con:
 
@@ -40,13 +40,13 @@ pip install -r requirements.txt
 Per avviare il bot:
 
 ```bash
-python bot.py
+streamlit run bot.py
 ```
 
 ## Stato del progetto
 
 🛠️ Proof of Concept  
-🌐 Dimostra integrazione avanzata di Knowledge Sources  
+🌐 Dimostra integrazione avanzata di Knowledge Sources
 
 ## Licenza
 

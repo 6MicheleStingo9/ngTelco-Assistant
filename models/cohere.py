@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_cohere import ChatCohere, CohereEmbeddings
 
-key = st.secrets["COHERE_API_KEY_NC"]
+key = st.secrets["COHERE_API_KEY_AD"]
 
 
 llm = ChatCohere(

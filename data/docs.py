@@ -201,7 +201,7 @@ CREATE
 (u3)-[:HA_SOTTOSCRITTO { dataSottoscrizione:'2024-03-01' }]->(c3)-[:RELATIVO_A]->(o4)<-[:HA_ATTIVATO { dataInizio:'2024-03-01', dataFine:'2026-03-01', residuoDati: '38GB', residuoMinuti: 731, residuoSMS: 160 }]-(u3),
 (u4)-[:HA_SOTTOSCRITTO { dataSottoscrizione:'2024-04-01' }]->(c4)-[:RELATIVO_A]->(o5)<-[:HA_ATTIVATO { dataInizio:'2024-04-01', dataFine:'2025-04-01', residuoDati: 'illimitati', residuoMinuti: 'illimitati', residuoSMS: 'illimitati' }]-(u4),
 (u4)-[:HA_SOTTOSCRITTO { dataSottoscrizione:'2024-05-01' }]->(c9)-[:RELATIVO_A]->(o6)<-[:HA_ATTIVATO { dataInizio:'2024-05-01', dataFine:'2025-05-01', residuoDati: '4GB', residuoMinuti: 100, residuoSMS: 'illimitati' }]-(u4),
-(u5)-[:HA_SOTTOSCRITTO { dataSottoscrizione:'2024-05-01' }]->(c5)-[:RELATIVO_A]->(o9)<-[:HA_ATTIVATO { dataInizio:'2024-05-01', dataFine:'2026-05-01', residuoDati: '3800GB' }]-(u5),
+(u5)-[:HA_SOTTOSCRITTO { dataSottoscrizione:'2024-05-01' }]->(c5)-[:RELATIVO_A]->(o9)<-[:HA_ATTIVATO { dataInizio:'2024-05-01', dataFine:'2026-05-01', residuoDati: '380GB' }]-(u5),
 (u6)-[:HA_SOTTOSCRITTO { dataSottoscrizione:'2024-06-01' }]->(c6)-[:RELATIVO_A]->(o2)<-[:HA_ATTIVATO { dataInizio:'2024-06-01', dataFine:'2025-06-01', residuoDati: '2GB', residuoMinuti: 180, residuoSMS: 'illimitati' }]-(u6)
 """
 

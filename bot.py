@@ -10,7 +10,6 @@ from contextlib import redirect_stdout
 # Page Config
 st.set_page_config(
     page_title="ngTelco",
-    page_icon="/home/stingom/Scrivania/Git/llm-projects/telco_assistant/images/icon.png",
     layout="centered",
     initial_sidebar_state="collapsed",
 )
@@ -61,7 +60,7 @@ def confirm_user_selection():
 # Sidebar for user selection
 with st.sidebar:
     st.logo(
-        image="/home/stingom/Scrivania/Git/llm-projects/telco_assistant/images/logo.png",
+        image="images/logo.png",
     )
     st.selectbox(
         "Seleziona un utente:",
@@ -75,8 +74,8 @@ with st.sidebar:
         pass
     st.divider()
     st.image(
-        "/home/stingom/Scrivania/Git/llm-projects/telco_assistant/images/graph.png",
-        use_column_width=True,
+        "images/graph.png",
+        use_container_width=True,
         caption="Graph Schema",
     )
 
