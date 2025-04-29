@@ -7,7 +7,7 @@
 `ngTelco-Assistant` esplora la creazione di un **agente RAG** capace di recuperare informazioni da **tre fonti distinte**:
 
 - **Database a grafo** (es. Neo4j) per dati strutturati e relazionali
-- **Vector Store** (es. FAISS, Chroma, ecc.) per il recupero semantico di documenti
+- **Vector Store** (es. Qdrant, FAISS, Chroma, ecc.) per il recupero semantico di documenti
 - **Mock API esterna** per simulare l'integrazione con servizi di terze parti
 
 Questa architettura dimostra la flessibilità e la potenza di LangChain nell'orchestrare più fonti di conoscenza per arricchire il ragionamento dell'agente.
