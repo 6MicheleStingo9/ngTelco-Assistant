@@ -18,7 +18,7 @@ Questa architettura dimostra la flessibilità e la potenza di LangChain nell'orc
 - `bot.py` → Avvio e gestione del bot
 - `graph.py` → Interazione con il database a grafo
 - `tools/` → Set di tool custom (es. retriever, API connector)
-- `models/` → Modelli dati strutturati
+- `models/` → Provisioning LLM
 - `data/` → Dataset di esempio
 - `images/` → Risorse grafiche
 
